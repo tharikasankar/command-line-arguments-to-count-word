@@ -21,12 +21,13 @@ Anaconda - Python 3.7
 ```
 #Developed by:Tharika S
 #Register num: 212222230159
-num_words=0
-with open('shara.txt','r') as file1:
-    for i in file1:
-        word=i.split()
-        num_words += len(word)
-print('num of words={}'.format(num_words))   
+import sys
+count = 0
+with open(sys.srgv[0],'r) as f:
+    for line in f:
+        word = line,split()
+        count+= len(word)
+print("Word count in File = ",count)   
 ```
 
 ### OUTPUT:
