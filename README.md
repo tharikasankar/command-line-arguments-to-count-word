@@ -19,8 +19,8 @@ Anaconda - Python 3.7
 
 ## PROGRAM:
 ```
-#Developed by:SRINIDHI SENTHIL
-#Register num: 22001408
+#Developed by:Tharika S
+#Register num: 212222230159
 num_words=0
 with open('shara.txt','r') as file1:
     for i in file1:
