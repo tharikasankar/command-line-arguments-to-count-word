@@ -7,15 +7,15 @@ Anaconda - Python 3.7
 ## ALGORITHM: 
 ### Step 1: Import sys
 
-### Step 2: Open file using commandline arguments.
+### Step 2: Pass the filename as the first argument after the name of script. Open the file as sys.argv[1]
  
-### Step 3: Using for loop find the word count from the contents of a file.
+### Step 3: Read the file using read() method.
 
-### Step 4: Use len to count number of words. 
+### Step 4: Use split() method to split the file content into words.. 
 
-### Step 5: Give print statement.
+### Step 5: Use len() to find the total words.
 
-### Step 6: End the program.
+### Step 6: Use len() to find the total words.
 
 ## PROGRAM:
 ```
