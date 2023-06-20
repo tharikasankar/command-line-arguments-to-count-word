@@ -24,12 +24,15 @@ Anaconda - Python 3.7
 #RegisterNumber: 2122222230159
 
 import sys
-with open(sys.argv[1],'r') as f:
-    num_of_words =0
-    for i in f:
-        word =i.split()
-        num_of_words += len(word)
-print("Number of words={}".format(num_of_words))
+fp-open(sys.argv[1],"r")
+d-{}
+for i in fp:
+   for w in i.split():
+    if w not in d.keys():
+        d[w]-1
+   else:
+        d[w]+=1
+print(d)       
 ```
 
 ### OUTPUT:
